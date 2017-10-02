@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -39,11 +39,32 @@
 		<div class="reveal">
 
 			<div class="slides">
+
+ 			<section>
+					<h2>-name of the quiz-</h2>
+          <img data-src="img/keep-calm-its-quiz-time.png" />
+  		</section>
+
+ 			<section>
+					<h2>The Rules</h2>
+     			<ol>
+						<li>Have fun</li>
+						<li>Learning something new</li>
+						<li>Score points and win prices</li>
+					</ol>
+  		</section>
+      
+ 			<section>
+          <p>round 1 / topic 1</p>
+					<h2>Topic title</h2>
+          <img data-src="img/1-1.png" alt="add image" />
+  		</section>
+
+
 				<section>
 					<section>
-						<h2>round 1 / topic 1 / question 1</h2>
-						<p>What is a hoopoe?</p>
-						<br>
+            <!-- round 1 / topic 1 / question 1  -->
+						<h2>What is a hoopoe?</h2>
 						</a>
 					</section>
 					<section>
@@ -78,8 +99,15 @@
 				progress: true,
 				history: true,
 				center: true,
+        
+        // Override scale defaults, see https://github.com/hakimel/reveal.js/#presentation-size 
+        width: "100%",
+	      height: "100%",
+	      margin: 0,
+	      minScale: 1,
+	      maxScale: 1,
 
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
